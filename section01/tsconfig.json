@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist", //컴파일결과가 dist영역에 분리돼서 저장된다.
+    "strict": false,
+    "moduleDetection": "force" //모듈 export 개별모듈로 사용을 도와줌
+  },
+  "include": ["src"]
+  // 터미널에 tsc만 입력해도 src에 있는 모든 파일을 컴파일해줌
+}
