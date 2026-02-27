@@ -14,9 +14,9 @@ function func() {
 
 let user: User = {
   id: 1,
-  name: "김진솔",
+  name: "김미미",
   nickname: "wlsthfdl",
-  birth: "1998.09.26",
+  birth: "1234.11.11",
   location: "부천시",
 };
 
