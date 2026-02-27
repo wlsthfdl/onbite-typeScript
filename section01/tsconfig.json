@@ -7,6 +7,9 @@
     "strict": false,
     "moduleDetection": "force" //모듈 export 개별모듈로 사용을 도와줌
   },
+  "ts-node": {
+    "esm": true
+  },
   "include": ["src"]
   // 터미널에 tsc만 입력해도 src에 있는 모든 파일을 컴파일해줌
 }
